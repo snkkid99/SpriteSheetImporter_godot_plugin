@@ -1,4 +1,4 @@
-# TexturePacker Importer
+# Sprite Sheet Importer
 
 This is a plugin for [Godot Engine](https://godotengine.org) to import
 `AtlasTexture`s from the [TexturePacker](https://www.codeandweb.com/texturepacker) FREE VERSION
