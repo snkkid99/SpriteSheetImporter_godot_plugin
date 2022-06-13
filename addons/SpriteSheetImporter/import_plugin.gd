@@ -23,11 +23,11 @@ func get_preset_count():
 
 func get_preset_name(preset):
 	match preset:
-		PRESET_DEFAULT: return "Default"
+		Preset.PRESET_DEFAULT: return "Default"
 
 func get_import_options(preset):
 	match preset:
-		PRESET_DEFAULT:
+		Preset.PRESET_DEFAULT:
 			return [{
 					"name": "Import_As_Atlas",
 					"default_value": true
